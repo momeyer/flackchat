@@ -1,0 +1,197 @@
+*
+{
+  font-family: monospace;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  color: white;
+}
+
+.nav-link
+{
+  margin-top: 3px;
+  padding: 0px;
+}
+
+.online_sign {
+  margin-right: 10px;
+}
+
+#green:checked + label {
+  outline: none;
+  color: #a9dc76;
+}
+
+#yellow:checked + label {
+  outline: none;
+  color: #ffd766;
+}
+
+#blue:checked + label {
+  outline: none;
+  color: #78dce8;
+}
+
+#purple:checked + label {
+  outline: none;
+  color: #ab9df2;
+}
+
+#pink:checked + label {
+  outline: none;
+  color: #ff6087;
+}
+
+#orange:checked + label {
+  outline: none;
+  color: #fb9767;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+#header_logo {
+  margin-top: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: #212121;
+}
+
+header {
+  background-color: #222222;
+  height: 5vh;
+}
+
+.navbar-brand {
+  font-size: medium;
+}
+
+#side_menu {
+  font-size: x-small;
+  padding: 0%;
+  height: 95vh;
+  background-color: #222222;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.navbar {
+  margin: 0px;
+  padding-left: 25px;
+  background-color: #222222 !important;
+}
+
+#new_group_button {
+  font-size: medium;
+  background-color: #222222;
+}
+
+.btn {
+  font-size: medium;
+  border: none;
+}
+
+#display_menu_button {
+  display: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+#user_color_div {
+  margin-top: 0px;
+}
+
+.form-control:focus,
+.input-group:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#username_input_field,
+#group_name_input,
+.input-group-text {
+  font-size: larger;
+  background-color: #303030 !important;
+  border: none;
+  color: white;
+  outline: none;
+}
+
+#group_chats_list,
+#private_chats_list {
+  margin-left: 15px;
+}
+
+#chatroom_div {
+  height: 75vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  overflow-wrap: break-word;
+}
+
+#chatroom_div::-webkit-scrollbar {
+  width: 1em;
+}
+
+#chatroom_div::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.modal-content {
+  background-color: #303030;
+}
+
+#color_label,
+#username_label,
+#icon_radio_buttons {
+  font-size: large;
+  color: white;
+}
+
+#message_textarea {
+  height: 15vh;
+  resize: none;
+  background-color: #303030;
+  border: none;
+  position: fixed;
+  bottom: 0px;
+}
+
+#send_message_button {
+  height: 15vh;
+  background-color: #303030;
+  border: none;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+@media screen and (max-width: 441px) {
+  #side_menu {
+    height: 15%;
+  }
+
+  #display_menu_button {
+    display: inline;
+  }
+
+  #message_textarea {
+    width: 80vw;
+  }
+
+  #send_message_button {
+    width: 20vw;
+  }
+}
