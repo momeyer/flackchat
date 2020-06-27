@@ -52,7 +52,7 @@ class HTMLUtils {
     HTMLUtils.curChatroom.name = `${clicked_id}`;
     HTMLUtils.curChatroom.type = "private";
     HTMLUtils.lastAccessed = clicked_id.split(`_`)[0];
-    console.log(HTMLUtils.lastAccessed)
+    console.log(HTMLUtils.lastAccessed);
   }
 
   static createUserLiElement(username, this_user, color, status) {
